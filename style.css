@@ -9,6 +9,8 @@ body {
     grid-template: repeat(5, 1fr) / repeat(6, 1fr);
     margin: 0px;
     height: 100%;
+    font-family: Roboto;
+    font-weight: 600;
 }
 
 .sidebar>div>svg{
@@ -55,4 +57,90 @@ body {
 
 p {
     margin: 16px 0px;
+}
+
+.header {
+    grid-column: 2 / 7;
+}
+
+.upper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2% 0%;
+}
+
+.upper>div>div>svg {
+    height: 3vh;
+    width: 3vh;
+}
+.profile>img {
+    height: 5vh;
+    width: 5vh;
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.search-bar>input {
+    width: 45vw;
+    height: 3vh;
+    border-radius: 15px;
+    border-style: none;
+    background-color: #E2E8F0;
+}
+
+.upper>.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.upper>.right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header>.lower {
+    display: flex;
+    justify-content: space-around;
+    gap: 20%;
+}
+.header>.lower>.left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.header>.lower>.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.right>button {
+    font-family: Roboto;
+    font-weight: 600;
+    color: white;
+    background-color: #1992D4;
+    border-style: none;
+    border-radius: 20px;
+    width: 6vw;
+    height: 4vh;
+}
+
+.header>.lower>.left>.welcome>p {
+    margin: 10px 0px;
+}
+
+.left>.profile>img {
+    height: 10vh;
+    width: 10vh;
+    border-radius: 50%;
+}
+
+p.first {
+    font-size: 15px;
 }
